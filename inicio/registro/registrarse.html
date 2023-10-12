@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registro.css">
+    <title>Registrate</title>
+</head>
+<body>
+    <form id="registro-form" action="#">
+        <h1>Crea una cuenta</h1>
+        <input id="nombre" class="campos" placeholder="Nombre de usuario" type="text">
+        <p id="nombre-error">No se permiten caracteres especiales y deben haber al menos 5 caracteres</p>
+        <input id="clave" class="campos" placeholder="Contraseña" type="password">
+        <p id="clave-error">No se permiten caracteres epeciales y deben haber al menos 8 caracteres</p>
+        <input id="clave-confirmada" class="campos" placeholder="Confirmar clave" type="password">
+        <p id="clave-confirmada-error">Debes escribir otra vez la misma contraseña</p>
+        <input id="enviar" type="submit">
+    </form>
+    <script src="../usuario.js"></script>
+    <script src="guardardatos.js"></script>
+</body>
+</html>
