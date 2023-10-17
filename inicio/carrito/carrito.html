@@ -1,0 +1,48 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="carrito.css">
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Carrito</title>
+</head>
+<body id="body">
+    <div id="loader"><img src="https://th.bing.com/th/id/OIG.FlVHi1XDantZUr8tHso0?pid=ImgGn" alt=""></div>
+    <nav id="nav">
+        <div id="logo"><img src="https://th.bing.com/th/id/OIG.FlVHi1XDantZUr8tHso0?pid=ImgGn" alt=""></div>
+
+        <div id="buscador">
+            <div>
+                <input type="text" placeholder="Buscar en el carrito"><i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div id="seguir-comprando" ><a title="Seguir comprando" href="../index.html"><i class="fa-solid fa-left-long"></i></a></div>
+
+        <div id="foto-perfil" title="Sin foto de perfil"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt=""></div>
+    </nav>
+    <main>
+        <h1>Tu carrito</h1>
+        <p id="carrito-vacio">Tu carrito está vacio, ¡es hora de comprar!</p>
+        <section id="productos-del-carrito">
+
+        </section>
+        <div class="opciones-carrito">
+            <div id="vaciar">
+                <h3>Vaciar carrito</h3>
+            </div>
+            <div id="datos-compra">
+                <h3 id="total-completo">
+                    
+                </h3>                    
+                <h3 class="comprar">
+                    Comprar ahora
+                </h3>
+            </div>
+        </div>
+        <p class="disabled" id="compra-hecha">¡Tu compra se realizó correctamente!</p>
+    </main>
+    <script type="module" src="carrito.js"></script>
+    <script src="https://kit.fontawesome.com/fe6ac2c5e5.js" crossorigin="anonymous"></script>
+</body>
+</html>
